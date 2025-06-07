@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin - RepuestosTech</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="admin.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Panel de Administración</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="productos.html">Productos</a>
+      <a href="carrito.html">Carrito</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Agregar Producto</h2>
+    <form id="formulario-producto">
+      <input type="text" id="nombre" placeholder="Nombre" required><br>
+      <input type="number" id="precio" placeholder="Precio" required><br>
+      <input type="text" id="imagen" placeholder="Ruta de imagen (img/nombre.jpg)" required><br>
+      <button type="submit">Agregar</button>
+    </form>
+  </main>
+</body>
+</html>
